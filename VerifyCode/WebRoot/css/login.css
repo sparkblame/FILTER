@@ -1,0 +1,46 @@
+
+img{
+    margin: 5px;
+    cursor:pointer;
+}
+p{
+    font-size: large;
+    text-align: center;
+}
+body{
+    background-image: url(../image/city.jpg) ;
+    background-size: cover;
+}
+.box{
+    margin-top: 100px;
+    background-color:wheat;
+    opacity: 0.8;
+    width: 400px;
+    height: 580px;
+    float: center;
+}
+.stdioinput{
+    margin-top: 12px;
+    border: black 2px solid;
+    border-radius: 4px;
+    background-image: linear-gradient(-5deg,#eeeeee 0%,#ffffff 100%);
+    width: 100px;
+    height: 30px;
+
+}
+#leftinput{
+    margin-top: 40px;
+    border: aqua 1px solid;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);;
+    width: 100px;
+    height: 30px;
+}
+#rightinput{
+    margin-left: 50px;
+    border: aqua 1px solid;
+    border-radius: 15px;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 100px;
+    height: 30px;
+}
